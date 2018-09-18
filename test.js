@@ -1,3 +1,1 @@
-
-let primitiveComponentAsset = await SDK.createAsset('myPrimitiveAsset',
-  space.urn, {components: [primitiveComponent]});
+SDK.createRelationship(space.urn, tableUrn, lampUrn);
